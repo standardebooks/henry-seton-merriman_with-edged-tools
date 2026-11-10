@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-seton-merriman/with-edged-tools</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-11-10T03:14:47Z</dc:date>
+		<meta property="dcterms:modified">2026-11-10T03:14:47Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -37,16 +37,16 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2007100671</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<meta property="schema:abstract">Two English gentlemen journey to West Africa, staking their lives for a chance at a fortune which will change their futures, and forming a powerful bond which could be destroyed by a deception awaiting them in London.</meta>
+		<meta property="schema:abstract">Two English gentlemen journey to West Africa, staking their lives for a chance at a fortune which will change their futures.</meta>
 		<dc:description>
-			&lt;p&gt;Jack Meredith is the scion of a respected family and the beau-ideal of London society; Guy Oscard has chosen to forsake that society for the lonely existence of a big game hunter. Each is now driven by love and pride to seek his fortune in West Africa, where they join a partnership to supply the world’s rarest medicine—a drug derived from the leaves of plant which grows only on a single plateau in the interior of one of the most inaccessible, dangerous places on Earth. These two resourceful men, different though they seem, are united by strength of character and a shared sense of honor and form a friendship which can survive any challenge posed by hostile tribesmen, relentless natural threat, disease and privation, but which may be destroyed by a secret awaiting them back at home.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;With Edged Tools&lt;/i&gt; in a sense made &lt;a href="https://standardebooks.org/ebooks/henry-seton-merriman"&gt;Henry Seton Merriman’s&lt;/a&gt; name as one of the Victorian Era’s leading novelists. He showed his ability to blend several genres—realism, romance, adventure, intrigue, social commentary—into a cohesive, fast-paced story which moved effortlessly from locale to locale and character to character. Unlike many contemporary novelists, Merriman was able to craft supporting characters and themes as memorable as his primary ones, and in &lt;i&gt;With Edged Tools&lt;/i&gt; he is able to highlight the tensions between the old class structures of England and its rising commercial class consciousness. Against that backdrop is played out a drama in which those embodying the old ways and those embracing the new all demonstrate that strength of character and sense of honor transcends any narrow sense of “class.”&lt;/p&gt;
+			&lt;p&gt;Jack Meredith is the scion of a respected family and the beau-ideal of London society; Guy Oscard has chosen to forsake that society for the lonely existence of a big game hunter. Each is now driven by love and pride to seek his fortune in West Africa, where they join a partnership to supply the world’s rarest medicine—a drug derived from the leaves of plant which grows only on a single plateau in the interior of one of the most inaccessible, dangerous places on Earth. These two resourceful men, different though they seem, are united by strength of character and a shared sense of honor. They soon form a friendship which can survive any challenge, whether it be hostile tribesmen, the relentless power of nature, disease, or privation—but which may be destroyed by a secret awaiting them back at home.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;With Edged Tools&lt;/i&gt; in a sense made &lt;a href="https://standardebooks.org/ebooks/henry-seton-merriman"&gt;Henry Seton Merriman’s&lt;/a&gt; name as one of the Victorian era’s leading novelists. It showcases his ability to blend several genres—realism, romance, adventure, intrigue, social commentary—into a cohesive, fast-paced story which moved effortlessly from locale to locale and character to character. Unlike many contemporary novelists, Merriman was able to craft supporting characters and themes as memorable as his primary ones, and in &lt;i&gt;With Edged Tools&lt;/i&gt; he is able to highlight the tensions between the old class structures of England and its rising commercial class consciousness. Against that backdrop is played out a drama in which those embodying the old ways and those embracing the new all demonstrate that strength of character and sense of honor transcend any narrow sense of class.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/8939</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/007684328</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">105525</meta>
+		<meta property="schema:educationalLevel">73.37</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/henry-seton-merriman_with-edged-tools" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -75,6 +75,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
